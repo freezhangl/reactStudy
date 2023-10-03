@@ -13,6 +13,7 @@ export default class App extends Component {
     }
 
     componentDidMount(){
+        console.log('我走了集采了')
         axios.get("/test.json").then(res=>{
             console.log(res.data.data.films)
 

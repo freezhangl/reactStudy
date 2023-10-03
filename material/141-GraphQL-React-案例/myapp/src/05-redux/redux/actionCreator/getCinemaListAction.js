@@ -66,7 +66,7 @@ async function getCinemaListAction(){
             payload:res.data.data.cinemas
         }
     })
-
+    console.log(list,'fsdfsg供方')
     return list
 }
 

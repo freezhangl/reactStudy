@@ -46,7 +46,7 @@ class Child extends Component{
     componentWillUnmount(){
         console.log("componentWillUnmount")
 
-        window.onresize = null
+        // window.onresize = null
 
         clearInterval(this.timer) 
     }

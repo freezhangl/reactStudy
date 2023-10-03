@@ -29,7 +29,7 @@ export default class App extends Component {
         }).then(res=>{
             console.log(res.data.data)
             this.setState({
-                list:res.data.data
+                list:res.data.data||[]
             })
 
         })
