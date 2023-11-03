@@ -11,7 +11,7 @@
           @change="onAddressChange"
           placeholder="请选择服务地址"
         />
-      </a-form-model-item>
+      </a-form-model-item> 
       <baidu-map class="map" :center="mapCenter" :zoom="zoom" @ready="handlerLoad" @click="clickEvent">
         <bm-navigation type="BMAP_NAVIGATION_CONTROL_LARGE" anchor="BMAP_ANCHOR_TOP_RIGHT"></bm-navigation>
         <bm-map-type :map-types="['BMAP_HYBRID_MAP', 'BMAP_NORMAL_MAP']" anchor="BMAP_ANCHOR_TOP_LEFT"></bm-map-type>
